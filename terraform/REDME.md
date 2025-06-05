@@ -2,6 +2,8 @@
 
 ## Pré-requisitos
 
+![Terraform-1.12.1](https://img.shields.io/badge/terraform-1.12.1-blueviolet?style=flat-square)
+
 1. **Instalar Terraform**
    - Faça o download do Terraform em: https://www.terraform.io/downloads.html
    - Adicione o executável do Terraform ao PATH do sistema
