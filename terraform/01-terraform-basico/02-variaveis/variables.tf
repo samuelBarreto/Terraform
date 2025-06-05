@@ -18,8 +18,8 @@ variable "aws_profile" {
 
 variable "instance_ami" {
   type        = string
-  description = "AMI da instância"
-  default = "ami-052cef01758351d37"
+  description = "AMI da instância Ubuntu Server 24.04 LTS (HVM),EBS General Purpose (SSD) Volume Type. Support available from Canonical (http://www.ubuntu.com/cloud/services)."
+  default = "ami-0731becbf832f281e"
 }
 
 variable "instance_type" {
@@ -32,7 +32,9 @@ variable "instance_tags" {
   type        = map(string)
   description = "Tags da instância"
   default = {
-    Name    = "Ubuntu"
-    Project = "Curso AWS com Terraform"
+    Name    = "Ubuntu 24.04 LTS"
+    Project = "AWS com Terraform - Terraform 01"
+    Environment = "Dev"
+    Managedby = "Terraform"
   }
 }
