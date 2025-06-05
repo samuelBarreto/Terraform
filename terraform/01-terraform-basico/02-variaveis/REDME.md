@@ -7,7 +7,7 @@ Os mecanismos acima para definir variáveis ​​podem ser usados ​​em conj
 
 1. ** Variáveis ​​de ambiente
 
-    O terraform.tfvarsarquivo, se presente.
-    O terraform.tfvars.jsonarquivo, se presente.
-    Qualquer arquivo *.auto.tfvarsou *.auto.tfvars.json, processado na ordem lexical de seus nomes de arquivo.
-    Quaisquer opções -vare -var-filena linha de comando, na ordem em que são fornecidas. (Isso inclui variáveis ​​definidas por um espaço de trabalho do HCP Terraform.)
+    - O terraform.tfvarsarquivo, se presente.
+    - O terraform.tfvars.jsonarquivo, se presente.
+    - Qualquer arquivo *.auto.tfvarsou *.auto.tfvars.json, processado na ordem lexical de seus nomes de arquivo.
+    - Quaisquer opções -vare -var-filena linha de comando, na ordem em que são fornecidas. (Isso inclui variáveis ​​definidas por um espaço de trabalho do HCP Terraform.)
